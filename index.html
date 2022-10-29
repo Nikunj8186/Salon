@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- <img src="file : C:/User/Instrumentation_main.UMANGPHARMA/Desktop/Diwali/Module-5/Contest/Salon/1.jpg" alt="image" height="100px"; width="100px"> -->
+        <div class="header">
+            <h3>Salon</h3>
+            <h2>
+            <a href="#HOME">Home</a>&nbsp;&nbsp;
+            <a href="#ABOUTUS">About Us</a>&nbsp;&nbsp;
+            <a href="#SERVICES">All Services</a> &nbsp;&nbsp;
+            <a href="#CONTACT">Contact</a>&nbsp;&nbsp;</h2>&nbsp;
+            <a href="#FORM"><button type="button">BOOK NOW</button></a>
+        </div>
+            <br><br><br><br>
+            <h2 id="ABOUTUS"></h2>
+            <h3><label for="fname">Shop Name: Chopper Salon</label></h3>
+            <h4><label for="address">Address : New Delhi-400001</label></h4>
+            <br><br>
+            <h2 id="CONTACT"></h2>
+            <h3><label for="contact">Contact details: </label></h3>
+            <h4><label for="contact">Person Name : Mr. Ajay</label></h4>
+            <h4><label for="contact">Mobile No. : 0912345678</label></h4>
+            <h5><label for="contact">Email ID : choppersalondelhi@gmail.com</label></h5>
+            <h6><label for="contact">Website : www.choppersalon.com</label></h6>
+        <div class="salontext">
+            <h2 id="HOME"></h2>
+            <h3>Welcome to Choppers </h3><br>
+            <h1>Hair Salon For A <br> Professional Look</h1>
+            <br><br>
+            <h2>Choppers offers high performance <br> customized facials to provide you <br> with visible results.</h2>
+            <br><br>
+            <div class="BookNow">    
+                <a href="#FORM"><button type="button">BOOK NOW</button></a>
+                <h2 id="FORM"></h2>
+                <div class="form">
+                    <form action="/booking.asp" id="form1"><br>
+                        &nbsp;<label for="fname">First Name :  </label>
+                        &nbsp;<input type="text" id="fname" name="fname"><br><br> 
+                        &nbsp;<label for="contact">Contact No. :  </label>
+                        &nbsp;<input type="text" id="contact" name="contact"><br><br>
+                        &nbsp;<label for="time"> Appointment time : </label><br>
+                        &nbsp;<label for="time slot"><input type="radio"> 0800 - 1100</label> <br>
+                        &nbsp;<label for="time slot"><input type="radio"> 1100 - 1400</label><br>
+                        &nbsp;<label for="time slot"><input type="radio"> 1400 - 1700</label><br>
+                        &nbsp;<label for="time slot"><input type="radio"> 1700 - 2000</label> <br><br>
+                        &nbsp;<label for="option">Select following option :  </label> <br>
+                        &nbsp;<label for="radio"><input type="checkbox"> Shaving</label> <br>
+                        &nbsp;<label for="radio"><input type="checkbox"> Hair Cutting</label><br>
+                        &nbsp;<label for="radio"><input type="checkbox"> Facial</label><br><br>
+                        &nbsp;<input type="submit" value="Submit">
+                        &nbsp;&nbsp;
+                        <input type="reset">
+                    </form>
+                </div>
+            </div>        
+            &nbsp;
+            <div class="service">
+                <a href="#SERVICES"><button type="button">All Services</button></a>
+                <!-- <button type="button">All Services</button> -->
+                <div class="option">
+                    <h2 id="SERVICES"></h2>
+                    <dl>
+                        <dt>Hair Cutting</dt>
+                        <dd>&nbsp;&nbsp;&nbsp; - Style</dd>
+                        <dd>&nbsp;&nbsp;&nbsp; - Normal</dd>
+                        <dt>Shaving</dt>
+                        <dd>&nbsp;&nbsp;&nbsp; - Fancy</dd>
+                        <dd>&nbsp;&nbsp;&nbsp; - Foam</dd>
+                        <dt>Facial</dt>
+                        <dd>&nbsp;&nbsp;&nbsp; - Gold</dd>
+                        <dd>&nbsp;&nbsp;&nbsp; - Fruit</dd>
+                    </dl>
+            </div>
+            </div>    
+        </div>
+    </div>
+</body>
+</html>

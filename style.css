@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: black;
+    margin: 50px;
+}
+
+.salontext h3 {
+    margin-top: 50em;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: orange;
+}
+.salontext h1 {
+    font-size: 5em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 200;
+    color: white;
+}
+.salontext h2 {
+    font-size: 1.7em;
+    letter-spacing: .3em;
+    line-height: 1.2em;
+    font-weight: 200;
+    color: gray;
+}
+.salontext h4 {
+    font-size: 0.7em;
+    letter-spacing: .3em;
+    line-height: 1.2em;
+    font-weight: 200;
+    color: red;
+}
+/* .salontext button{ */
+.BookNow button{
+    border-radius: 2px ;
+    border-color: orange;
+    background-color: orange;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.service button{ 
+    border-radius: 2px ;
+    background-color: black;
+    border-color: white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.service .option{
+    color: yellow;
+}
+
+.header h2 {
+    text-align: center;
+    font-size: 0.7em;
+    letter-spacing: .3em;
+    line-height: 0.6em;
+    font-weight: 500;
+    color: orange;
+}
+.header button{
+    border-radius: 2px ;
+    border-color: orange;
+    background-color: orange;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.header h3 {
+    font-size: 0.7em;
+    letter-spacing: .3em;
+    line-height: 0.6em;
+    font-weight: 500;
+    color: white;
+}
+.header .h2 .button2 {
+    border-radius: 2px ;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.BookNow Form{
+    color: yellow;
+}
